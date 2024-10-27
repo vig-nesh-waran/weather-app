@@ -27,7 +27,7 @@ function SearchBar() {
           value={place || ""}
           onChange={placeHandle}
           placeholder="Enter city name..."
-          className="flex-grow focus:outline-none h-10 w-10/12 text-gray-700 px-3 py-1 rounded-md focus:ring-2 focus:ring-orange-600"
+          className="flex-grow focus:outline-none h-10 w-9/12 text-gray-700 px-3 py-1 rounded-md focus:ring-2 focus:ring-orange-600"
         />
         <button type="submit" className=" ml-4 h-10 w-10 text-white rounded-full bg-orange-500">
           <FontAwesomeIcon icon={faSearch} />
